@@ -20,6 +20,6 @@ def Sequence(i, j):    # validates that range row is ordered sequentially
     while j:
         if j < i:
             print('Please enter an end value which precedes start value.')
-            j = iocheck.Number('Please enter a new value: ')
+            j = Number('Please enter a new value: ')
         elif j >= i:
             return j

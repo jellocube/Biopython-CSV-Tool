@@ -20,5 +20,3 @@ while mainLoop == 1:
     menus.printMenuChoices()
     menuChoice = iocheck.Number('Please enter a selection: ')
     menus.callMenuChoice(menuChoice)
-    
-    
